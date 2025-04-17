@@ -3,7 +3,7 @@
 
 function formatarCPF (cpf) {
   if (cpf.length !== 11) {
-    return "Sinto muito. CPF inválido";
+    return "Sinto muito. CPF inválido. Tente Novamente.";
   }
   
   return (

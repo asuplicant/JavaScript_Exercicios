@@ -7,7 +7,6 @@
 //2: número;
 //3: símbolo especial (tipo @, #, !, etc.).
 
-
 function gerarSenha(tamanho = 10) {
     const senha = [];
 
