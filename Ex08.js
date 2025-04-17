@@ -2,7 +2,7 @@
 // ou números, usando replace() com regex.
 
 function removerCaracteresEspeciais(texto) {
-    return texto.replace(/[^a-zA-Z0-9\s]/g, ''); // remover caracteres especiais de uma string, e aqui vai a explicação bem simples:
+    return texto.replace(/[^a-zA-Z0-9\s]/g, '');
   }
   
   console.log(removerCaracteresEspeciais('Olá, Mundo. Como vai?'));

@@ -3,7 +3,7 @@
 
 var prompt = require('prompt-sync')();
 
-let frase = prompt("digite sua frase: ");
+let frase = prompt("Por gentileza, digite sua frase: ");
 
 const fraseMaiuscula = frase
   .toLowerCase()

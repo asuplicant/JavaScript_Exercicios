@@ -3,8 +3,8 @@
 
 var prompt = require('prompt-sync')();
   
-const frase = prompt("Digite uma frase:");
-const letra = prompt("Digite uma letra:");
+const frase = prompt("Por gentileza, digite uma frase:");
+const letra = prompt("Agora, por favor, digite uma letra:");
 
 // Quebra a frase em palavras, filtra as que começam com a letra informada, e conta
 const palavrasComLetra = frase
